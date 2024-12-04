@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife - Tu Compañero de Fitness</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>FitLife</h1>
+        <p>Tu Compañero de Fitness</p>
+        <nav>
+            <ul>
+                <li><a href="#introduccion">Inicio</a></li>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#descargar">Descargar</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <section id="introduccion">
+            <h2>Bienvenido a FitLife</h2>
+            <p>FitLife es tu nueva aplicación de fitness diseñada para ayudarte a alcanzar tus objetivos de salud y bienestar. Desde rutinas de ejercicios personalizadas hasta planes de nutrición, FitLife te acompaña en cada paso de tu viaje hacia un estilo de vida más saludable.</p>
+            <a href="#descargar" class="cta-button">Descarga Ahora</a>
+        </section>
+        
+        <section id="caracteristicas">
+            <h2>Características</h2>
+            <div class="feature">
+                <h3>Rutinas Personalizadas</h3>
+                <p>Obtén rutinas de ejercicios adaptadas a tus necesidades y nivel de fitness.</p>
+            </div>
+            <div class="feature">
+                <h3>Planes de Nutrición</h3>
+                <p>Accede a planes de nutrición diseñados por expertos para complementar tus entrenamientos.</p>
+            </div>
+            <div class="feature">
+                <h3>Seguimiento de Progreso</h3>
+                <p>Monitorea tu progreso y alcanza tus metas con nuestras herramientas de seguimiento.</p>
+            </div>
+        </section>
+        
+        <section id="testimonios">
+            <h2>Testimonios</h2>
+            <div class="testimonial">
+                <p>"FitLife me ha ayudado a transformar mi vida. Las rutinas personalizadas son increíbles y fáciles de seguir." - Ana G.</p>
+            </div>
+            <div class="testimonial">
+                <p>"Con FitLife, he logrado perder peso y mejorar mi salud. Los planes de nutrición son un gran complemento." - Juan P.</p>
+            </div>
+        </section>
+        
+        <section id="descargar">
+            <h2>Descarga FitLife Ahora</h2>
+            <p>Disponible en Google Play y App Store. Empieza tu viaje hacia una vida más saludable hoy mismo.</p>
+            <a href="https://play.google.com/store/apps/details?id=com.fitlife" target="_blank" class="cta-button">Google Play</a>
+            <a href="https://apps.apple.com/us/app/fitlife/id1234567890" target="_blank" class="cta-button">App Store</a>
+        </section>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="/submit_contact" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 FitLife. Todos los derechos reservados.</p>
+        <div class="social-icons">
+            <a href="https://facebook.com"><img src="iconos/facebook-icon.png" alt="Facebook"/></a>
+            <a href="https://instagram.com"><img src="iconos/instagram-icon.png" alt="Instagram"/></a>
+            <a href="https://x.com"><img src="iconos/x-icon.png" alt="X" /></a>
+        </div>
+    </footer>
+</body>
+</html>
